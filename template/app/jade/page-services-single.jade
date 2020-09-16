@@ -1,0 +1,162 @@
+//- page-services-single.jade
+
+doctype
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,800" rel="stylesheet")
+		title Single Service - Walton Consulting Template
+		<!-- build:css css/vendor.css -->
+		<!-- bower:css -->
+		<!-- endbower -->
+		<!-- endbuild -->
+		link(rel="stylesheet" href="css/style-1.css" id="template-skin")
+
+	body
+
+		<!-- Preload start -->
+		include includes/preload.jade
+		<!-- Preload end -->
+
+		
+		
+		
+
+		<!-- To the top start -->
+		include includes/to-the-top.jade
+		<!-- To the top end -->
+
+		<!-- Mobile menu start -->
+		include includes/mobile-menu.jade
+		<!-- Mobile menu end -->
+
+		#page.page
+			#content-wrapper.content-wrapper
+
+				.content-wrapper-inner
+
+					<!-- Header start -->
+					include includes/header-1.jade
+					<!-- Header end -->
+
+					<!-- Page titlebar start -->
+					.content-section.decorated-bg.page-titlebar
+						.container
+							.row
+								.col-lg-12
+									h1.title single service
+									ol.breadcrumb
+										li: a(href="#") Home
+										li: a(href="#") Site Templates
+										li: a(href="#") Business
+										li: a(href="#") Corporate
+										li.active Walton Consulting
+					<!-- Page titlebar end -->
+
+					<!-- Intro start -->
+					.content-section
+						.container
+							.row
+								.col-md-8
+									.content-section-header.left
+										h2.title what can we do
+										p.description The healthcare marketplace is in transition, and the need to innovate and manage operations and the bottom line require new ideas and effective processes to implement them.
+									.clearfix
+									p Nullam a dui ac arcu ultrices ultrices eu eget nunc. Proin maximus, tortor ut tempor pulvinar, libero mauris cursus felis, id posuere ante turpis non ante. Sed aliquet maximus orci, a luctus odio blandit sed. Nam sed venenatis sem. Suspendisse vestibulum molestie justo, ac pellentesque quam condimentum sit amet. Suspendisse ut nunc luctus, accumsan lectus id, auctor sapien. Aenean in massa purus. Curabitur tempus tellus ac tincidunt ullamcorper.
+									blockquote
+										p " Do the difficult things while they are easy and do the great things while they are small. A jorney of a thousand miles begin with a single step. "
+										footer Lao Tzu
+									p Nullam tincidunt sapien quis libero tincidunt volutpat. Cras sit amet lacus quis purus mattis egestas. Nulla et lectus hendrerit, condimentum est vel, iaculis dolor. Pellentesque est velit, lacinia ut euismod eget, viverra sed mi. Donec sed ultrices massa. Donec ac tellus tincidunt, fermentum nibh nec, aliquam urna. Donec dignissim nec velit id consectetur. Aenean blandit at sapien at tempor. Sed egestas convallis gravida. Mauris interdum tellus a varius sollicitudin. Donec vestibulum tortor libero, at maximus dolor condimentum quis. Vestibulum rhoncus, ligula id tristique gravida, mauris tortor aliquet quam, non sagittis dui sem vitae turpis. Suspendisse non molestie erat, eget congue orci. Nullam eget pretium nunc. 
+									.row
+										.col-md-6
+											ul.ul-check
+												li Company long term planning;
+												li Pricing and P&L analysis;
+												li Products of services offering;
+												li Logistic and customer support structure review;
+												li Market position and company perception review;
+												li Market segment developments and reviews.
+										.col-md-6
+											ul.ul-check
+												li International department structure;
+												li Responsibilities, skills and experience;
+												li Staffing reviews;
+												li Internal changes for global trade;
+												li Involving existing remote stuff and distributors.
+								.col-md-4
+									.sidebar
+										.widget.widget-categories
+											h4.widget-title other services
+											.widget-content
+												ul
+													li: a(href="#") Corporate Finance
+													li: a(href="#") Information Management
+													li: a(href="#") Operations Management
+													li: a(href="#") Strategy & Optimisations
+													li: a(href="#") Risk Management
+													li: a(href="#") Technologies & Innovations
+										.widget.image-bg.image-bg-7
+											h4.widget-title we are hire
+											.widget-content
+												p Fusce finibus metus in dolor pharetra, sed efficitur libero pulvinar. Ut ac nunc mi. Donec ut ligula lorem. Phasellus lacinia pulvinar volutpat.
+												p: a.btn.btn-1(href="#") join our team
+					<!-- Intro end -->
+
+					<!-- Combo start -->
+					.combo
+						.content-section.image-bg.image-bg-8.cta.v3
+							.container
+								.row
+									.col-lg-12.cta-v3-content
+										.content
+											//- p.text-1 We're knowledgeable about
+											p.text-2 <span class="text-primary">A Process Improvements</span> Is Wasted If It Cannnot Be Sustained
+											p Aenean porttitor, dui eu bibendum vestibulum, nisi ligula lobortis mi, a pulvinar massa mi eget magna. Vivamus varius consectetur molestie.
+											//- p: a.btn.btn-1(href="#") discover more <i class="fa fa-long-arrow-right"></i>
+						.content-section.palette-4-bg
+							.container
+								.row
+									.col-lg-12
+										.content-section-header.left
+											h2.title service video
+											p.description Pellentesque vel dapibus leo. Pellentesque id sem massa. Morbi sollicitudin ornare magna, id molestie nisl lacinia volutpat. 
+										.clearfix
+										p Etiam scelerisque lectus vitae augue luctus, quis egestas turpis commodo. Cras id nisl sed felis laoreet vestibulum. Etiam tincidunt dictum elementum. Praesent vel efficitur erat, sed egestas orci. 
+										p.fit-vids: iframe(src="https://player.vimeo.com/video/194468163?color=ffffff&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+					<!-- Combo end -->
+
+					<!-- Text start -->
+					.content-section.pb0
+						.container
+							.row
+								.col-md-6
+									p.text-decor-1 Let us help you create the optimal go-to-market strategy
+									p.text-decor-2 We offer a range of high quality advisory and support services to help start-ups and small and middle-market companies successfully establish business operations in foreign markets.
+								.col-md-6
+									p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus felis vitae eros feugiat ultrices eget sit amet massa. Quisque nec porta enim, nec malesuada erat. Etiam auctor tellus et erat malesuada ultrices. Proin quis elit nec tellus dapibus suscipit. Ut et dictum orci. Suspendisse potenti. Curabitur et tellus ligula. Quisque blandit, ex at aliquam placerat, enim ipsum ultrices sapien, ut aliquet nunc orci nec lectus. Cras tincidunt sed lorem nec ullamcorper. Nunc et vulputate tortor. 
+									p Quisque sodales augue ac felis pharetra, in gravida est consequat. Pellentesque at ligula interdum purus faucibus semper eget in augue. Morbi dictum vel leo quis gravida. Ut sagittis pretium purus, non sodales massa tincidunt nec. Etiam risus ante, mollis nec dui ut, porttitor placerat purus. 
+									p Nunc elementum vel tortor vitae accumsan. Phasellus imperdiet sollicitudin tortor congue commodo.
+					<!-- Text end -->
+
+					<!-- CTA start -->
+					.content-section.cta.v1
+						.container
+							.row
+								.col-lg-12: .content-block.palette-2-bg
+									p.text-1 we help organisations
+									p.text-2 manage changes
+									p Independent global business advisory firm.
+									p: a.btn.btn-1(href="#") <i class="fa fa-file"></i> get a quotation
+					<!-- CTA end -->
+
+				<!-- Footer start -->
+				include includes/footer-1.jade
+				<!-- Footer end -->
+
+		<!-- build:js js/vendor.js -->
+		<!-- bower:js -->
+		<!-- endbower -->
+		<!-- endbuild -->
+		include includes/scripts.jade

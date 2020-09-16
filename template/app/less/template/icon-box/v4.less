@@ -1,0 +1,30 @@
+// template/icon-box/v4.less
+
+.icon-box.v4 {
+	.flex;
+	.flex-d( column );
+	margin-top: @leading;
+	margin-bottom: @leading;
+	header {
+		.flex;
+		.flex-d;
+		.flex-ai( center );
+		span, .fa {
+			font-size: @leading * 1.5;
+			color: @palette-1;
+			margin-right: @leading;
+		}
+		.title {
+			margin-top: 0;
+		}
+	}
+	&.with-image {
+		header {
+			margin-top: @leading;
+		}
+	}
+}
+
+.services-section {
+	margin-bottom: -@leading;
+}

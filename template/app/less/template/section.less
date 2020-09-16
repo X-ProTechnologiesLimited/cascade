@@ -1,0 +1,16 @@
+// template/section.less
+
+.content-block {
+	display: inline-block;
+	margin-top: @leading;
+	padding: @leading * 2;
+	padding-top: @leading;
+	width: 100%;
+}
+
+@media (max-width: @screen-xs-max) {
+	.content-block {
+		padding: @leading;
+		padding-top: 0;
+	}
+}

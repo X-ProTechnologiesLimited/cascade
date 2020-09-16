@@ -1,0 +1,78 @@
+// template/icon-box/v3.less
+
+.benefits-row {
+	.flex;
+	.flex-ai( center );
+}
+
+.icon-box.v3 {
+	position: relative;
+	overflow: hidden;
+	margin-top: @leading;
+	figure {
+		margin-top: 0;
+	}
+	.content {
+		// .flex;
+		// .flex-ai( center );
+		// .flex-jc( space-between );
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		.content-inner {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			background-color: @palette-2;
+			padding: @leading;
+			padding-top: 0;
+			color: #fff;
+			height: auto;
+			width: auto;
+			transition: all @transition-duration @transition-timing-function;
+			.title {
+				color: #fff;
+			}
+			p {
+				opacity: 0;
+				display: none;
+				transition: all @transition-duration @transition-timing-function;
+				transition-delay: @transition-duration;
+				a {
+					font-weight: @font-weight-bold;
+					color: #fff;
+				}
+			}
+		}
+	}
+	&:hover {
+		.content {
+			// .flex-ai;
+			.content-inner {
+				// position: absolute;
+				// left: 0;
+				// top: 0;
+				// width: 100%;
+				// height: 100%;
+				// .flex-basis( 100% );
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				background-color: rgba(000,000,000,0.6);
+				p {
+					opacity: 1;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: @screen-md-max) {
+	.benefits-row {
+		display: block;
+	}
+}

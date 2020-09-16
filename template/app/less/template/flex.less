@@ -1,0 +1,52 @@
+// utils/flex.less
+
+.flex() {
+	display: -webkit-flex; 
+	display: flex;
+}
+.flex-inline() {
+	display: -webkit-inline-flex; 
+	display: inline-flex;
+}
+.flex-d( @direction: row ) {
+	// row, row-reverse, column, column-reverse, initial, inherit
+	-webkit-flex-direction: @direction;
+	flex-direction: @direction;
+}
+.flex-jc( @juctify: flex-start ) {
+	// flex-start, flex-end, center, space-between, space-around, initial, inherit
+	-webkit-justify-content: @juctify;
+	justify-content: @juctify;
+}
+.flex-ai( @align: stretch ) {
+	// stretch, flex-start, flex-end, center, baseline, initial, inherit
+	-webkit-align-items: @align;
+	align-items: @align;
+}
+.flex-w( @wrap: nowrap ) {
+	// nowrap, wrap, wrap-reverse, initial, inherit
+	-webkit-flex-wrap: @wrap;
+	flex-wrap: @wrap;
+}
+.flex-ac( @align: stretch ) {
+	// stretch, flex-start, flex-end, center, space-between, space-around, initial, inherit
+	-webkit-align-content: @align; 
+	align-content: @align;
+}
+.flex-basis( @basis: auto ) {
+	-webkit-flex-basis: @basis;
+	flex-basis: @basis;
+}
+.flex-grow( @grow: 0 ) {
+	-webkit-flex-grow: @grow;
+	flex-grow: @grow;
+}
+.flex-shrink( @shrink: 1 ) {
+	-webkit-flex-shrink: @shrink;
+	flex-shrink: @shrink;
+}
+.flex-as( @self: auto ) {
+	// auto, flex-start, flex-end, center, baseline, stretch, initial, inherit
+	-webkit-align-self: @self;
+	align-self: @self;
+}

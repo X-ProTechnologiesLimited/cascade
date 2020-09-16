@@ -1,0 +1,56 @@
+// template/section-header.less
+
+.content-section-header {
+	.flex;
+	.flex-d( column );
+	.flex-jc( center );
+	margin-bottom: @leading;
+	.description {
+		font-weight: @font-weight-light;
+		font-size: 1.2rem;
+	}
+	.title {
+		.flex;
+		.flex-d( column );
+		.wicon-section-header-decor {
+			font-size: 1rem;
+			color: @palette-1;
+			margin-top: @leading;
+		}
+		&:after {
+			color: @palette-1;
+			font-family: 'icomoon';
+			content: '\e900';
+			font-size: 1rem;
+			line-height: 1;
+			margin-top: @leading;
+		}
+	}
+	&.center {
+		.flex-ai( center );
+		.title {
+			.flex-ai( center );
+		}
+		.description {
+			text-align: center;
+		}
+	}
+	&.left {
+		.flex-ai( flex-start );
+		.title {
+			.flex-ai( flex-start );
+		}
+		.description {
+			text-align: left;
+		}
+	}
+	&.right {
+		.flex-ai( flex-end );
+		.title {
+			.flex-ai( flex-end );
+		}
+		.description {
+			text-align: right;
+		}
+	}
+}

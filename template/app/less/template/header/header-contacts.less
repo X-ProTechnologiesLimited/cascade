@@ -1,0 +1,33 @@
+// template/header/header-contacts.less
+
+.header-contacts {
+	.flex;
+	.flex-d;
+	.flex-ai( center );
+	margin: @leading 0;
+	.header-contacts-item {
+		padding-right: @leading;
+		border-right: 1px solid darken(@palette-4, 5%);
+		margin-right: @leading;
+		// &:last-child {
+		// 	padding-right: 0;
+		// 	border-right-width: 0;
+		// 	margin-right: 0;
+		// }
+		.title, .content {
+			line-height: 1;
+			* {
+				line-height: 1;
+			}
+		}
+		.title {
+			margin-bottom: 10px;
+			font-size: .8rem;
+			font-weight: @font-weight-bold;
+			color: @palette-1;
+		}
+		.content {
+			font-size: 1.2rem;
+		}
+	}
+}

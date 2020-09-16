@@ -1,0 +1,341 @@
+//- index.jade
+
+doctype
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,800" rel="stylesheet")
+		title Walton Consulting Template
+		<!-- build:css css/vendor.css -->
+		<!-- bower:css -->
+		<!-- endbower -->
+		<!-- endbuild -->
+		link(rel="stylesheet" href="css/style-1.css" id="template-skin")
+
+	body
+
+		<!-- Preload start -->
+		include includes/preload.jade
+		<!-- Preload end -->
+
+		
+		
+		
+
+		<!-- To the top start -->
+		include includes/to-the-top.jade
+		<!-- To the top end -->
+
+		<!-- Mobile menu start -->
+		include includes/mobile-menu.jade
+		<!-- Mobile menu end -->
+
+		#page.page
+			#content-wrapper.content-wrapper
+
+				.content-wrapper-inner
+
+					<!-- Header start -->
+					include includes/header-1.jade
+					<!-- Header end -->
+
+					<!-- Homepage slider start -->
+					include includes/homepage-slider.jade
+					<!-- Homepage slider end -->
+
+					<!-- Intro start -->
+					.content-section
+						.container
+							.row
+								.col-md-6
+									p.text-decor-1 welcome to walton consulting
+									p.text-decor-2 Ideas and breakthroughs fueled by 100+ years of total experience.
+								.col-md-6
+									p Nullam placerat, sapien et eleifend condimentum, felis nisi pretium dolor, in pharetra tellus ipsum eget odio. Maecenas id cursus dui. Duis fermentum tortor id sapien tempor, quis placerat nunc gravida. Integer a diam sem. Vivamus vehicula consequat leo, ut cursus tellus iaculis et. Etiam volutpat bibendum dui at ullamcorper.
+									p
+										a.btn.btn-1(href="#") <i class="fa fa-file"></i> get a quotation
+										a.btn.btn-2(href="#") get in touch
+					<!-- Intro end -->
+
+					<!-- Benefits start -->
+					.content-section.palette-4-bg
+						.container
+							.row
+								.col-md-4.icon-box.v1
+									p: span.wicon-iconmonstr-globe-thin
+									div
+										h3 who we are
+										p Vivamus porta vulputate nisl, nec consectetur est ornare pharetra arcu erat sit amet. 
+										p: a.color-link(href="#") Read more...
+								.col-md-4.icon-box.v1
+									p: span.wicon-iconmonstr-light-bulb-thin
+									div
+										h3 what we do
+										p Nullam hendrerit, metus porttitor placerat tincidunt, ante ex venenatis amet lectus. 
+										p: a.color-link(href="#") Read more...
+								.col-md-4.icon-box.v1
+									p: span.wicon-iconmonstr-database-thin
+									div
+										h3 how we do it
+										p Vestibulum vitae turpis ut nibh scelerisque neque tincidunt pharetra sollicitudin orci. 
+										p: a.color-link(href="#") Read more...
+					<!-- Benefits end -->
+
+					<!-- Services start -->
+					.content-section
+						.container
+							.row
+								.col-lg-12
+									.content-section-header.center
+										h2.title services we provide
+										p.description We help you to communicate the value og your project so you get the buy-in and adoption you need to success.
+							.row
+								.col-lg-12
+									#index-1-services.owl-theme.owl-carousel
+										.icon-box.v2
+											.hover
+												img(src="images/2250x1500.png" alt="")
+												a(href="#"): span.wicon-iconmonstr-zoom-in-thin
+											span.wicon-iconmonstr-bar-chart-thin
+											p.title growth and innovations
+											p Nullam libero erat, aliquam nec pretium vitae, commodo eget nulla.
+										.icon-box.v2
+											.hover
+												img(src="images/2250x1500.png" alt="")
+												a(href="#"): span.wicon-iconmonstr-zoom-in-thin
+											span.wicon-iconmonstr-gear-thin
+											p.title operational management
+											p Vestibulum vitae metus bibendum, cursus ante sed, sollicitudin magna.
+										.icon-box.v2
+											.hover
+												img(src="images/2250x1500.png" alt="")
+												a(href="#"): span.wicon-iconmonstr-zoom-in-thin
+											span.wicon-iconmonstr-folder-full-thin
+											p.title organizational excellence
+											p Duis non diam quis tortor sollicitudin laoreet ut eget massa.
+										.icon-box.v2
+											.hover
+												img(src="images/2250x1500.png" alt="")
+												a(href="#"): span.wicon-iconmonstr-zoom-in-thin
+											span.wicon-iconmonstr-briefcase-thin
+											p.title strategy & optimisation
+											p Fusce turpis ante, ornare at bibendum non, venenatis vel justo.
+										.icon-box.v2
+											.hover
+												img(src="images/2250x1500.png" alt="")
+												a(href="#"): span.wicon-iconmonstr-zoom-in-thin
+											span.wicon-iconmonstr-info-thin
+											p.title risk management
+											p Mauris diam urna, egestas in est nec, placerat ornare purus vitae.
+										.icon-box.v2
+											.hover
+												img(src="images/2250x1500.png" alt="")
+												a(href="#"): span.wicon-iconmonstr-zoom-in-thin
+											span.wicon-iconmonstr-computer-thin
+											p.title technology & innovations
+											p Phasellus vitae dui a nisl lobortis efficitur a nec convallis diam.
+							.row
+								.col-lg-12
+									#index-1-services-nav.owl-nav.center
+					<!-- Services end -->
+
+					<!-- CTA start -->
+					.content-section.image-bg.image-bg-10.cta.v1
+						.container
+							.row
+								.col-lg-12
+									p.text-1 we help organisations
+									p.text-2 manage changes
+									p Independent global business advisory firm.
+									p: a.btn.btn-1(href="#") <i class="fa fa-file"></i> get a quotation
+					<!-- CTA end -->
+
+					<!-- Recent cases start -->
+					.content-section.decorated-bg
+						.container
+							.row.index-1-recent-cases-content
+								.col-md-3.col-lg-4
+									.content-section-header.left
+										h2.title recent cases
+										p.description We offer a wide range of staffing solutions for bottom line results that maximize efficience and improve productivity.
+									.clearfix
+									#index-1-recent-cases-nav.owl-nav.left
+								.col-md-9.col-lg-8
+									.index-1-recent-cases
+										#index-1-recent-cases.owl-theme.owl-carousel
+											.recent-cases-item.v1
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													div
+														p.title: a(href="#") Jeans Unlilmited
+														p.text-decor-1 baton rouge, la
+														p Morbi enim neque, condimentum quis interdum ac, consectetur quis nibh. 
+													p: a.color-link(href="#") Learn more...
+											.recent-cases-item.v1
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													div
+														p.title: a(href="#") Monmax
+														p.text-decor-1 Rehoboth, MA 02769 
+														p Suspendisse ut metus tellus. Phasellus viverra vitae nunc non consequat. 
+													p: a.color-link(href="#") Learn more...
+											.recent-cases-item.v1
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													div
+														p.title: a(href="#") Pomeroy's
+														p.text-decor-1 Norris City, IL 62869
+														p Pellentesque vitae nisl eros. Ut convallis ipsum et diam sagittis suscipit. 
+													p: a.color-link(href="#") Learn more...
+					<!-- Recent cases end -->
+
+					<!-- Latest blog posts start -->
+					.content-section
+						.container
+							.row
+								.col-lg-12
+									.content-section-header.center
+										h2.title latest blog posts
+										p.description Stay informed about what is happening.
+							.row
+								.col-md-6
+									.post.big-preview
+										figure.post-thumbnail
+											.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+											img(src="images/2250x1500.png" alt="")
+										ul.meta
+											li.meta-date Posted on <a href="#">8th May, 2018</a>
+											li.meta-category in <a href="#">News & Events</a>
+										h3.post-title: a(href="#") How Walton Consulting is going to change your business strategy
+										p.read-link: a(href="#") Read more <i class="fa"></i>
+								.col-md-6
+									.post.preview
+										figure.post-thumbnail
+											.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+											img(src="images/2250x1500.png" alt="")
+										.post-content
+											ul.meta
+												li.meta-date Posted on <a href="#">2th May, 2018</a>
+												li.meta-category in <a href="#">News & Events</a>
+											h4.post-title: a(href="#") Five great lessons you can learn from Walton Consulting
+									.post.preview
+										figure.post-thumbnail
+											.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+											img(src="images/2250x1500.png" alt="")
+										.post-content
+											ul.meta
+												li.meta-date Posted on <a href="#">5th May, 2018</a>
+												li.meta-category in <a href="#">News & Events</a>
+											h4.post-title: a(href="#") Why is Walton Consulting the most trending thing right now?
+									.post.preview
+										figure.post-thumbnail
+											.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+											img(src="images/2250x1500.png" alt="")
+										.post-content
+											ul.meta
+												li.meta-date Posted on <a href="#">12th May, 2018</a>
+												li.meta-category in <a href="#">News & Events</a>
+											h4.post-title: a(href="#") This is how Walton Consulting will look like in 10 years time
+									p: a.btn.btn-2(href="#") Read The Blog
+					<!-- Latest blog posts end -->
+
+					<!-- Partners start -->
+					.content-section.palette-4-bg
+						.container
+							.row
+								.col-lg-12
+									.partners-wrapper
+										.partners-nav.left.owl-nav
+											button#partners-prev.owl-prev(type="button"): span.wicon-iconmonstr-angel-left-circle-thin
+										#partners.partners-content.owl-carousel.owl-theme
+											img(src="images/partners/1.png" alt="")
+											img(src="images/partners/2.png" alt="")
+											img(src="images/partners/3.png" alt="")
+											img(src="images/partners/4.png" alt="")
+											img(src="images/partners/5.png" alt="")
+											img(src="images/partners/6.png" alt="")
+											img(src="images/partners/7.png" alt="")
+											img(src="images/partners/8.png" alt="")
+											img(src="images/partners/9.png" alt="")
+										.partners-nav.right.owl-nav
+											button#partners-next.owl-next(type="button"): span.wicon-iconmonstr-angel-right-circle-thin
+					<!-- Partners end -->
+
+					<!-- Quick faq & contact form start -->
+					.content-section
+						.container
+							.row
+								.col-md-6.col-lg-7
+									.content-section-header.left
+										h2.title quick faq
+										p.description The most common questions.
+									.clearfix
+									.rt-accordion(data-rt-accordion data-rt-accordion-toggle="on" data-rt-accordion-active="2")
+										.rt-accordion-item(data-rt-accordion-item)
+											header
+												p.title How Walton Became A Globally Well-Known Brand
+											.content
+												p Etiam vel leo lacus. Fusce vestibulum viverra justo, vel dictum lorem venenatis at. Sed eleifend, quam sed commodo varius, mauris magna tristique justo, et volutpat leo urna eget justo. Mauris iaculis dolor quis porta finibus. 
+												p Donec id molestie nisl. Suspendisse nisi leo, elementum eu suscipit non, mollis id sapien. Nunc at nibh urna. 
+										.rt-accordion-item(data-rt-accordion-item)
+											header
+												p.title Why Is Everyone Talking About Walton?
+											.content
+												p Etiam vel leo lacus. Fusce vestibulum viverra justo, vel dictum lorem venenatis at. Sed eleifend, quam sed commodo varius, mauris magna tristique justo, et volutpat leo urna eget justo. Mauris iaculis dolor quis porta finibus. 
+										.rt-accordion-item(data-rt-accordion-item)
+											header
+												p.title 7 Unexpected Ways Walton Can Make Your Life Better
+											.content
+												p Etiam vel leo lacus. Fusce vestibulum viverra justo, vel dictum lorem venenatis at. Sed eleifend, quam sed commodo varius, mauris magna tristique justo, et volutpat leo urna eget justo. Mauris iaculis dolor quis porta finibus. 
+												p Donec id molestie nisl. Suspendisse nisi leo, elementum eu suscipit non, mollis id sapien. Nunc at nibh urna. 
+										.rt-accordion-item(data-rt-accordion-item)
+											header
+												p.title Seven Latest Developments In Walton
+											.content
+												p Etiam vel leo lacus. Fusce vestibulum viverra justo, vel dictum lorem venenatis at. Sed eleifend, quam sed commodo varius, mauris magna tristique justo, et volutpat leo urna eget justo. Mauris iaculis dolor quis porta finibus. 
+												p Donec id molestie nisl. Suspendisse nisi leo, elementum eu suscipit non, mollis id sapien. Nunc at nibh urna. 
+								.col-md-6.col-lg-5.subsection-fix-sm.subsection-fix-xs
+									.content-block.palette-2-bg
+										h3.text-center request a quotation
+										form#contact-form
+											.form-group.contacts-form-result: strong
+											.form-group
+												input.form-control(type="text" placeholder="Your name..." name="comment-name")
+											.form-group
+												input.form-control(type="email" placeholder="Your e-mail..." name="comment-email")
+											.form-group
+												input.form-control(type="tel" placeholder="Your phone..." name="comment-phone")
+											.form-group
+												textarea.form-control(rows="10" placeholder="Your message..." name="comment-message")
+											.form-group.text-center
+												button.btn.btn-1(type="submit") Send Your Request
+					<!-- Quick faq & contact form end -->
+
+					<!-- CTA start -->
+					.content-section.image-bg.image-bg-11.cta.v1
+						.container
+							.row
+								.col-lg-12
+									p.text-1 we're knowledgeable about
+									p.text-2 making benefits higher
+									p A leading provider of consulting services.
+									p: a.btn.btn-1(href="#") <i class="fa fa-file"></i> get a quotation
+					<!-- CTA end -->
+
+				<!-- Footer start -->
+				include includes/footer-1.jade
+				<!-- Footer end -->
+
+		<!-- build:js js/vendor.js -->
+		<!-- bower:js -->
+		<!-- endbower -->
+		<!-- endbuild -->
+		include includes/scripts.jade

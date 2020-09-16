@@ -1,0 +1,58 @@
+// template/post/preview.less
+
+.post {
+	&.preview {
+		.flex;
+		.flex-d;
+		.flex-ai( center );
+		border-bottom: 1px solid darken(@palette-4, 5%);
+		padding-bottom: @leading;
+		.post-thumbnail {
+			.flex-basis( 35% );
+		}
+		.post-content {
+			.flex-basis( 65% );
+			padding-left: @leading;
+		}
+		.meta {
+			margin-top: 0;
+		}
+		&.st-1 {
+			.post-thumbnail, .post-content {
+				.flex-basis( 50% );
+			}
+		}
+		&.st-2 {
+			.flex-d( column );
+			border-bottom-width: 0;
+			.post-thumbnail, .post-content {
+				.flex-basis( 100% );
+				width: 100%;
+			}
+			.post-content {
+				margin-top: @leading;
+				padding-left: 0;
+			}
+		}
+		&.last {
+			padding-bottom: 0;
+			border-bottom-width: 0;
+		}
+	}
+}
+
+@media (max-width: @screen-xs-max) {
+	.post {
+		&.preview {
+			.flex-d( column );
+			.post-thumbnail, .post-content {
+				.flex-basis( 100% );
+				width: 100%;
+			}
+			.post-content {
+				padding-left: 0;
+				margin-top: @leading;
+			}
+		}
+	}
+}

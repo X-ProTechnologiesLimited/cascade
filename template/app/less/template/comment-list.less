@@ -1,0 +1,63 @@
+// template/comment-list.less
+
+.comment-list {
+	.flex;
+	.flex-d( column );
+	padding-left: 0;
+	margin-top: 0;
+	.comment {
+		border-bottom: 1px solid darken(@palette-4, 5%);
+		// margin-bottom: @leading;
+		padding-bottom: @leading;
+		margin-top: @leading;
+		header {
+			.flex;
+			.flex-d;
+			.flex-jc( space-between );
+			.flex-ai( center );
+			> div {
+				.flex;
+				.flex-ai( center );
+				.meta {
+					margin-top: 0;
+				}
+				.title {
+					margin-top: 0;
+				}
+				figure {
+					width: @leading * 2;
+					height: @leading * 2;
+					overflow: hidden;
+					margin-top: 0;
+					.flex;
+					.flex-ai( center );
+					margin-right: @leading / 2;
+					img {
+						width: auto;
+						max-width: none;
+						height: 100%;
+					}
+				}
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom-width: 0;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.comment-list {
+		.comment {
+			header {
+				.flex-d( column );
+				.flex-ai( flex-start );
+				> a {
+					margin-top: @leading;
+				}
+			}
+		}
+	}
+}

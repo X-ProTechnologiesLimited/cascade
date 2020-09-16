@@ -1,0 +1,35 @@
+// template/header/header-mobile-menu.less
+
+.pushbar {
+	background-color: @palette-3;
+	padding: @leading;
+	padding-top: 0;
+	text-align: left;
+	.flex;
+	.flex-d( column );
+	.title {
+		color: #fff;
+		.flex;
+		.flex-jc( space-between );
+		[data-pushbar-close]:after {
+			content: '\f00d';
+			font-family: FontAwesome;
+		}
+	}
+	a {
+		color: #fff;
+		text-transform: capitalize;
+		&:hover {
+			color: @palette-1;
+		}
+	}
+	> ul {
+		margin-bottom: @leading;
+	}
+	ul {
+		padding-left: 0;
+		ul {
+			padding-left: @leading / 2;
+		}
+	}
+}

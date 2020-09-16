@@ -1,0 +1,44 @@
+// template/recent-cases/v2.less
+
+.index-2-recent-cases, .index-3-recent-cases {
+	.owl-carousel {
+		margin-left: -@leading / 2;
+		margin-right: -@leading / 2;
+		width: auto;
+		.owl-stage-outer {
+			padding-bottom: @leading * 2;
+			margin-bottom: -@leading * 2;
+			.owl-item {
+				padding-left: @leading / 2;
+				padding-right: @leading / 2;
+			}
+		}
+	}
+}
+.recent-cases-item.v2 {
+	.flex;
+	.flex-d( column );
+	.flex-ai;
+	box-shadow: 0 @leading / 2 @leading / 2 rgba( 000, 000, 000, .6 );
+	transition: box-shadow @transition-duration @transition-timing-function;
+	.details {
+		text-align: center;
+		.text-decor-1 {
+			margin-top: 0;
+		}
+	}
+	&:hover {
+		box-shadow: 0 @leading @leading rgba( 000, 000, 000, .6 );
+	}
+	&.portfolio {
+		box-shadow: 0 0 0 rgba(000,000,000,0.0);
+		background-color: @palette-4;
+		// padding-bottom: 0;
+		&:hover {
+			box-shadow: 0 @leading @leading rgba( 000, 000, 000, .2 );
+		}
+	}
+	&.mtl {
+		margin-top: @leading;
+	}
+}

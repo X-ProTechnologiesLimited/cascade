@@ -1,0 +1,37 @@
+// template/logo.less
+
+.site-logo {
+	.flex;
+	.flex-jc( flex-start );
+	.flex-ai( center );
+	// .flex-ac( center );
+	margin: @leading / 2 0;
+	transition: margin @transition-duration @transition-timing-function;
+	text-decoration: none;
+	.logo-img {
+		.flex-shrink( 0 );
+		line-height: 1;
+		img {
+			max-height: @logo-max-height;
+		}
+	}
+	.name-and-tagline {
+		.flex;
+		.flex-d( column );
+		padding-left: @leading / 4;
+	}
+	.name {
+		font-weight: @font-weight-bold;
+		color: @palette-3;
+		letter-spacing: @heading-letter-spacing;
+		font-size: 2rem;
+		line-height: 1;
+	}
+	.tagline {
+		line-height: 1;
+		text-transform: uppercase;
+		font-size: .8rem;
+		color: @palette-3;
+		margin-top: 5px;
+	}
+}

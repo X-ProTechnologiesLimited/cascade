@@ -1,0 +1,29 @@
+// template/to-the-top.less
+
+.to-the-top {
+	position: fixed;
+	right: @leading * 1;
+	bottom: @leading * 1;
+	z-index: 10001;
+	display: none;
+	a {
+		display: inline-block;
+		height: @leading * 2;
+		line-height: @leading * 2;
+		text-align: center;
+		width: @leading * 2;
+		border-radius: 50%;
+		// background-color: @palette-3;
+		background-color: @content-bg-color;
+		color: @palette-2;
+		// color: #fff;
+		box-shadow: 0 0 @leading @palette-1;
+		transition: all @transition-duration @transition-timing-function;
+		&:hover {
+			// background-color: @content-bg-color;
+			// color: @palette-1;
+			background-color: @palette-2;
+			color: #fff;
+		}
+	}
+}

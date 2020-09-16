@@ -1,0 +1,22 @@
+// template/post/general.less
+
+.post {
+	margin-top: @leading;
+	.post-title {
+		a {
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.read-link {
+		a {
+			.color-link;
+			&:after {
+				font-family: FontAwesome;
+				content: '\f178';
+			}
+		}
+	}
+}

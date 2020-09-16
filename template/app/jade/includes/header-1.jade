@@ -1,0 +1,65 @@
+//- includes/header-1.jade
+
+header.site-header.site-header-1
+	<!-- Top bar start -->
+	.top-bar
+		.container
+			.row
+				.col-lg-12.top-bar-content
+					ul
+						li: a(href="#") our team
+						li: a(href="#") case studies
+						li: a(href="#") newsroom
+						li: a(href="#") careers
+						li: a(href="#") contact us
+					.lang-and-social-buttons
+						ul
+							li: a(href="#"): i.fa.fa-facebook
+							li: a(href="#"): i.fa.fa-twitter
+							li: a(href="#"): i.fa.fa-linkedin
+							li: a(href="#"): i.fa.fa-google-plus
+							li: a(href="#"): i.fa.fa-instagram
+	<!-- Top bar end -->
+	<!-- Main bar start -->
+	.main-bar
+		.container
+			.row
+				.col-lg-12.main-bar-content
+					<!-- Logo start -->
+					a.site-logo(href="index.html" title="Walton")
+						.logo-img: img(src="images/logo.png" alt="Walton")
+						.name-and-tagline
+							.name Walton
+							.tagline solutions for business
+					<!-- Logo end -->
+					.contacts-and-button
+						<!-- Contacts start -->
+						.header-contacts
+							.header-contacts-item.hidden-md.hidden-sm.hidden-xs
+								.title <span class="wicon-iconmonstr-mail-thin"></span> Drop us a line
+								.content: a(href="#") support@walton.com
+							.header-contacts-item.hidden-sm.hidden-xs
+								.title <span class="wicon-iconmonstr-phone-thin"></span> Give us a call
+								.content 1 (860) 729-1526
+							.header-contacts-item
+								.title <span class="wicon-iconmonstr-location-pin-thin"></span> Windsor, CT 06095
+								.content 1064 Maxwell Street
+						<!-- Contacts end -->
+						<!-- Button start -->
+						a.btn.btn-primary(href="#") get a quotation
+						<!-- Button end -->
+	<!-- Main bar end -->
+	<!-- Menu bar start -->
+	#sticked-bar.menu-bar
+		.container
+			.row
+				.col-lg-12.menu-bar-content
+					<!-- Memu start -->
+					include menu.jade
+					<!-- Memu end -->
+					<!-- Search start -->
+					form.search-form
+						input(type="search" placeholder="Search here...")
+						button(type="submit"): span.wicon-iconmonstr-search-thin
+					<!-- Search end -->
+	<!-- Menu bar end -->

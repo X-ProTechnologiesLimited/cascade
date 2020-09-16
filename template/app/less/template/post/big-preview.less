@@ -1,0 +1,22 @@
+// template/post/big-preview.less
+
+.post {
+	&.big-preview {
+		&.blog-list {
+			border-bottom: 1px solid darken(@palette-4, 5%);
+			padding-bottom: @leading;
+		}
+	}
+}
+
+@media (max-width: @screen-sm-max) {
+
+	.post {
+		&.big-preview {
+			padding-bottom: @leading;
+			margin-bottom: @leading;
+			border-bottom: 1px solid darken(@palette-4, 5%);
+		}
+	}
+
+}

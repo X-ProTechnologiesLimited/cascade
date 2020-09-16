@@ -1,0 +1,25 @@
+// template/buttons.less
+
+.btn {
+	border-radius: @btn-border-radius;
+	font-weight: @btn-font-weight;
+	text-transform: @btn-text-transform;
+	border: 0;
+	padding: @leading / 2 @leading;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: all @transition-duration @transition-timing-function;
+}
+
+.btn-1 {
+  .button-variant(#fff; @palette-1; @palette-1);
+}
+.btn-2 {
+  .button-variant(#fff; @palette-2; @palette-2);
+}
+.btn-3 {
+  .button-variant(#fff; @palette-3; @palette-3);
+}
+.btn-4 {
+  .button-variant(@palette-3; @palette-4; @palette-4);
+}

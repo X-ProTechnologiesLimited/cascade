@@ -1,0 +1,302 @@
+//- index-2.jade
+
+doctype
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,800" rel="stylesheet")
+		title Index 2 - Walton Consulting Template
+		<!-- build:css css/vendor.css -->
+		<!-- bower:css -->
+		<!-- endbower -->
+		<!-- endbuild -->
+		link(rel="stylesheet" href="css/style-1.css" id="template-skin")
+
+	body
+
+		<!-- Preload start -->
+		include includes/preload.jade
+		<!-- Preload end -->
+
+		
+		
+		
+
+		<!-- To the top start -->
+		include includes/to-the-top.jade
+		<!-- To the top end -->
+
+		<!-- Mobile menu start -->
+		include includes/mobile-menu.jade
+		<!-- Mobile menu end -->
+
+		#page.page
+			#content-wrapper.content-wrapper
+
+				.content-wrapper-inner
+
+					<!-- Header start -->
+					include includes/header-2.jade
+					<!-- Header end -->
+
+					<!-- Homepage slider start -->
+					include includes/homepage-slider.jade
+					<!-- Homepage slider end -->
+
+					<!-- CTA start -->
+					.content-section.cta.v2.palette-4-bg: .container: .row: .col-lg-12
+						p Are you ready for a Quantum Leap? <a href="#" class="color-link">Let's get started!</a>
+					<!-- CTA end -->
+
+					<!-- Benefits start -->
+					.content-section
+						.container
+							.row.benefits-row
+								.col-xs-12.col-lg-4
+									.content-section-header.left
+										h2.title core benefits
+										p.description We offer a wide range of staffing solutions for bottom line results that maximize efficiency and improve productivity.
+									p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc lorem. Suspendisse potenti. Aenean pretium non ex vitae ornare. Vivamus gravida, sem nec auctor congue, arcu lorem imperdiet velit, non scelerisque urna tellus a nibh. Fusce orci turpis, tempor quis erat a, semper vulputate augue.
+									p: a.btn.btn-1(href="#") learn more <i class="fa  fa-long-arrow-right"></i>
+								.col-xs-12.col-lg-8.subsection-fix-md.subsection-fix-sm.subsection-fix-xs
+									.row
+										.col-xs-12.col-sm-6
+											.icon-box.v3
+												.content: .content-inner
+													h4.title Years of Experience
+													p Phasellus urna mi, efficitur et leo in, imperdiet fermentum turpis.
+													p: a(href="#") Learn more...
+												figure: img(src="images/2250x1500.png" alt="")
+										.col-xs-12.col-sm-6
+											.icon-box.v3
+												.content: .content-inner
+													h4.title Worldwide Officies
+													p Aenean justo justo, fringilla eget eros aliquet, sagittis ultricies elit.
+													p: a(href="#") Learn more...
+												figure: img(src="images/2250x1500.png" alt="")
+									.row
+										.col-xs-12.col-sm-6
+											.icon-box.v3
+												.content: .content-inner
+													h4.title Hardworking People
+													p Aliquam quam velit, rhoncus eget justo a, pulvinar dignissim urna.
+													p: a(href="#") Learn more...
+												figure: img(src="images/2250x1500.png" alt="")
+										.col-xs-12.col-sm-6
+											.icon-box.v3
+												.content: .content-inner
+													h4.title Corporate Culture
+													p Sed faucibus, arcu id scelerisque varius, turpis nisi mattis sapien.
+													p: a(href="#") Learn more...
+												figure: img(src="images/2250x1500.png" alt="")
+					<!-- Benefits end -->
+
+					<!-- Services start -->
+					.content-section.palette-4-bg
+						.container
+							.row
+								.col-lg-12
+									.content-section-header.center
+										h2.title services we provide
+										p.description We help you communnicate the value of your project so you get the buy-in and adoption you need to success.
+							.row
+								.col-xs-12.col-sm-6.col-md-4
+									.icon-box.v4
+										header
+											span.wicon-iconmonstr-bar-chart-thin
+											h4.title Information Management
+										p Aliquam aliquam, libero ac pellentesque suscipit, enim urna sollicitudin diam, vitae gravida leo dui vitae libero.
+								.col-xs-12.col-sm-6.col-md-4
+									.icon-box.v4
+										header
+											span.wicon-iconmonstr-folder-full-thin
+											h4.title corporate finance
+										p Praesent hendrerit pulvinar ex, in commodo orci sagittis non. Vestibulum vehicula viverra aliquam. 
+								.col-xs-12.visible-sm.visible-xs
+								.col-xs-12.col-sm-6.col-md-4
+									.icon-box.v4
+										header
+											span.wicon-iconmonstr-gear-thin
+											h4.title operation management
+										p Phasellus sollicitudin a sem ac placerat. Morbi vulputate eget dolor et pretium. Proin eu posuere justo. 
+								.col-xs-12.visible-lg.visible-md
+								.col-xs-12.col-sm-6.col-md-4
+									.icon-box.v4
+										header
+											span.wicon-iconmonstr-database-thin
+											h4.title strategy and optimisation
+										p Cras maximus tortor nec quam euismod semper. Aenean volutpat orci lectus, vitae ultricies eros tempus in. 
+								.col-xs-12.visible-sm.visible-xs
+								.col-xs-12.col-sm-6.col-md-4
+									.icon-box.v4
+										header
+											span.wicon-iconmonstr-info-thin
+											h4.title risk management
+										p Etiam lacinia ex ut magna consectetur, sit amet congue lacus feugiat. Mauris vel tortor tincidunt. 
+								.col-xs-12.col-sm-6.col-md-4
+									.icon-box.v4
+										header
+											span.wicon-iconmonstr-light-bulb-thin
+											h4.title technologies and innovations
+										p In rhoncus eget erat placerat lacinia. Pellentesque a porttitor nisi, a placerat nisi.
+								.col-xs-12.text-center: p: a.btn.btn-2(href="#") discover more
+					<!-- Services end -->
+
+					<!-- Recent cases start -->
+					.content-section.decorated-bg
+						.container
+							.row
+								.col-lg-12
+									.content-section-header.center
+										h2.title recent cases
+										p.description We offer a wide range of staffing solutions for bottom line results that maximize efficiency.
+							.row
+								.col-lg-12
+									.index-2-recent-cases
+										#index-2-recent-cases.owl-carousel.owl-theme
+											.recent-cases-item.v2
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													p.title: a(href="#") Jeans Unlilmited
+													p.text-decor-1 Windsor, OH 44099
+											.recent-cases-item.v2
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													p.title: a(href="#") E-zhe Source
+													p.text-decor-1 Buxton, NC 27959 
+											.recent-cases-item.v2
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													p.title: a(href="#") Kash n' Karry
+													p.text-decor-1 Plymouth, IN 46563
+											.recent-cases-item.v2
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													p.title: a(href="#") Peter Reeves
+													p.text-decor-1 Section, AL 35771
+											.recent-cases-item.v2
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													p.title: a(href="#") Big Apple
+													p.text-decor-1 Paducah, KY 42003
+											.recent-cases-item.v2
+												figure
+													.hover: a.lightbox-images(href="images/2250x1500.png"): span.wicon-iconmonstr-zoom-in-thin
+													img(src="images/2250x1500.png" alt="")
+												.details
+													p.title: a(href="#") Your Future Is Now
+													p.text-decor-1 Prescott, AZ 86314
+							.row
+								.col-lg-12: #index-2-recent-cases-nav.owl-nav.center
+					<!-- Recent cases end -->
+
+					<!-- CTA start -->
+					.content-section.image-bg.image-bg-11.cta.v3
+						.container
+							.row
+								.col-lg-12.cta-v3-content
+									.content
+										p.text-1 our mission is to
+										p.text-2 boost your revenue & profit
+										p We help our clients grow their revenue & profits. Faster, better and sustainably than anyone else.
+									p.right: a.btn.btn-1(href="#") <i class="fa fa-file"></i> get a quotation
+					<!-- CTA end -->
+
+					<!-- Why choose start -->
+					.content-section
+						.container
+							.row
+								.col-xs-12
+									.content-section-header.center
+										h2.title why choose walton?
+										p.description We've evolved innovation from an art to a predictable science.
+							.row
+								.col-xs-12.col-md-6
+									figure: img(src="images/2250x1500.png" alt="")
+								.col-xs-12.col-md-6.mtl-sm.mtl-xs
+									.row
+										.col-xs-12.col-sm-6
+											.icon-box.v4
+												header
+													h4.title market & product strategy
+												p Donec porta, lectus a gravida efficitur, dui purus mollis est, id ultrices enim arcu sit amet risus. Morbi vel semper sem. 
+										.col-xs-12.col-sm-6
+											.icon-box.v4
+												header
+													h4.title outcome-based segmentation
+												p Mauris aliquet tellus a nisi posuere, sit amet accumsan leo ullamcorper. Aenean vehicula scelerisque porta. 
+										.col-xs-12
+										.col-xs-12.col-sm-6
+											.icon-box.v4
+												header
+													h4.title customer need discovery
+												p Sed nec consectetur arcu. Nullam massa erat, faucibus fringilla mauris a, efficitur elementum mi. 
+										.col-xs-12.col-sm-6
+											.icon-box.v4
+												header
+													h4.title competitive analysis
+												p Vestibulum sit amet metus tincidunt nulla facilisis posuere. Mauris porta id massa quis iaculis.
+										.col-xs-12: p: a.btn.btn-2(href="#") discover more
+					<!-- Why choose end -->
+
+					<!-- Partners start -->
+					.content-section.index-2-partners
+						.container
+							.row
+								.col-lg-12
+									.partners-wrapper
+										.partners-nav.left.owl-nav
+											button#partners-prev.owl-prev(type="button"): span.wicon-iconmonstr-angel-left-circle-thin
+										#partners.partners-content.owl-carousel.owl-theme
+											img(src="images/partners/1.png" alt="")
+											img(src="images/partners/2.png" alt="")
+											img(src="images/partners/3.png" alt="")
+											img(src="images/partners/4.png" alt="")
+											img(src="images/partners/5.png" alt="")
+											img(src="images/partners/6.png" alt="")
+											img(src="images/partners/7.png" alt="")
+											img(src="images/partners/8.png" alt="")
+											img(src="images/partners/9.png" alt="")
+										.partners-nav.right.owl-nav
+											button#partners-next.owl-next(type="button"): span.wicon-iconmonstr-angel-right-circle-thin
+					<!-- Partners end -->
+
+					<!-- Newsletters start -->
+					.content-section.decorated-bg.right-decorated-bg.newsletters-subscribe
+						.container
+							.row: form
+								.col-xs-12.col-md-12.col-lg-4
+									.title
+										span.wicon-iconmonstr-mail-thin
+										.content
+											h4 subscribe here
+											p Get our newsletters and stay in touch.
+								.col-xs-12.col-md-4.col-lg-3
+									input.form-control(type="text" placeholder="Your name...")
+								.col-xs-12.col-md-4.col-lg-3
+									input.form-control(type="email" placeholder="Your e-mail address...")
+								.col-xs-12.col-md-4.col-lg-2
+									button.btn.btn-1(type="submit") subscribe now
+					<!-- Newsletters end -->
+
+				<!-- Footer start -->
+				include includes/footer-2.jade
+				<!-- Footer end -->
+
+		<!-- build:js js/vendor.js -->
+		<!-- bower:js -->
+		<!-- endbower -->
+		<!-- endbuild -->
+		include includes/scripts.jade

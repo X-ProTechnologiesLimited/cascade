@@ -1,0 +1,69 @@
+{
+  "name": "rt-grant-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "2.2.4",
+    "normalize-css": "normalize.css#^7.0.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "4.7.0",
+    "owl.carousel": "^2.2.1",
+    "jquery-validation": "https://github.com/jquery-validation/jquery-validation.git",
+    "fitvids": "https://github.com/davatron5000/FitVids.js.git",
+    "jquery-touch-event": "https://github.com/benmajor/jQuery-Touch-Events.git",
+    "images-loaded": "https://github.com/desandro/imagesloaded.git",
+    "animate.css": "^3.5.2",
+    "sticky" : "https://github.com/garand/sticky.git",
+    "scrollbar" : "https://github.com/gromo/jquery.scrollbar.git",
+    "isotope" : "https://github.com/metafizzy/isotope.git",
+    "jquery-bridget": "^2.0.1",
+    "masonry": "https://github.com/desandro/masonry.git",
+    "matches-selector": "^2.0.2",
+    "offside" : "https://github.com/toomuchdesign/offside.git",
+    "jtap": "https://github.com/BR0kEN-/jTap.git",
+    "Magnific-Popup" : "https://github.com/dimsemenov/Magnific-Popup.git"
+  },
+  "overrides": {
+    "isotope": {
+      "main": [
+        "js/item.js",
+        "js/layout-mode.js",
+        "js/isotope.js",
+        "js/layout-modes/vertical.js",
+        "js/layout-modes/fit-rows.js",
+        "js/layout-modes/masonry.js"
+      ],
+      "dependencies": {
+        "get-size": ">=1.1.8 <1.3",
+        "matches-selector": ">=1 <2",
+        "outlayer": "1.3.x",
+        "masonry": "3.2.x",
+        "jquery": ">=1.4.3 <2",
+        "jquery-bridget": "1.1.x"
+      }
+    },
+    "pushbar": {
+      "main": [
+        "pushbar/pushbar.css",
+        "pushbar/pushbar.js"
+      ]
+    },
+    "offside": {
+      "main": [
+        "dist/offside.css",
+        "dist/offside-test-no-css-3d-transforms.css",
+        "dist/offside.min.js"
+      ]
+    },
+    "outlayer": {
+      "main": [
+        "item.js",
+        "outlayer.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
+    }
+  }
+}

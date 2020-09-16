@@ -1,0 +1,20 @@
+--- 21.07.2018
+Initial release.
+
+--- 04.08.2018
+Porject/blog posts thumbnail images height fix.
+Affected files: css/*.css, less/template/post/thumbnail.less, less/template/recent-cases/general.less, less/template/recent-cases/v3.less, less/template/video-preview.less
+
+
+--- 12.09.2018
+New offcanvas menu js script added. To make the template compatible with IE11.
+Affected files: js/template.js.
+
+
+--- 10.11.2018
+Hamburger (mobile) menu issue fixed
+Affected files: js/template.js.
+
+--- 13.11.2018
+Hamburger & contact from fix. Just replace your js/template.js to new one. Thanks.
+Affected files: js/template.js.
