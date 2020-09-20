@@ -6999,13 +6999,13 @@ body.boxed .content-wrapper {
 }
 body.boxed .content-wrapper .container {
   width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .content-section {
   width: 100%;
-  padding-top: 90px;
-  padding-bottom: 120px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 *.pb0 {
   padding-bottom: 0;
@@ -7224,6 +7224,7 @@ body.boxed .content-wrapper .container {
   flex-direction: row;
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
+  font-size: 0.9rem;
 }
 .widget.widget-contacts .phone:before,
 .widget.widget-contacts .email:before,
@@ -7232,7 +7233,7 @@ body.boxed .content-wrapper .container {
   flex-shrink: 0;
   content: '\f041';
   font-family: FontAwesome;
-  width: 30px;
+  width: 20px;
   color: #00b1f5;
 }
 .widget.widget-contacts .phone:before {
@@ -7244,7 +7245,7 @@ body.boxed .content-wrapper .container {
 .widget.widget-contacts .links a {
   text-decoration: none;
   margin-right: 30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 @media (max-width: 768px) {
   .sidebar {
@@ -8233,9 +8234,9 @@ form .contacts-form-result.show {
   margin-top: -50px;
 }
 .page-titlebar .title {
-  font-size: 4rem;
-  font-weight: 800;
-  letter-spacing: -2px;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -1px;
   text-transform: uppercase;
   line-height: 1;
 }
