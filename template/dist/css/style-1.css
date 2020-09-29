@@ -1271,7 +1271,7 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 12px;
 }
 h6,
 .h6 {
@@ -7082,7 +7082,7 @@ body.boxed .content-wrapper .container {
   line-height: 1;
 }
 .site-logo .logo-img img {
-  max-height: 40px;
+  max-height: 80px;
 }
 .site-logo .name-and-tagline {
   display: -webkit-flex;
@@ -7963,6 +7963,18 @@ form .contacts-form-result.show {
 }
 .image-bg-bulk {
   background-image: url("../images/Bulk_Analysis.png");
+}
+.image-bg-poly {
+  background-image: url("../images/polymers_latest.jpg");
+}
+.image-bg-electric {
+  background-image: url("../images/electrical_latest.jpg");
+}
+.image-bg-liquid {
+  background-image: url("../images/liquid_gas_latest.jpg");
+}
+.image-bg-misc {
+  background-image: url("../images/misc_latest.jpg");
 }
 .image-bg-8 {
   background-image: url("../images/2250x1500.png");
@@ -8912,9 +8924,9 @@ fieldset[disabled] .pagination > li > span.focus {
 .icon-box.v3 .content .content-inner {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 70%;
   background-color: #08237e;
-  padding: 30px;
+  padding: 50px;
   padding-top: 0;
   color: #fff;
   height: auto;
