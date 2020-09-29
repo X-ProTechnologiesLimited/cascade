@@ -7955,6 +7955,15 @@ form .contacts-form-result.show {
 .image-bg-7 {
   background-image: url("../images/2250x1500.png");
 }
+.image-bg-sims {
+  background-image: url("../images/sims_machine.png");
+}
+.image-bg-tem {
+  background-image: url("../images/home_microscope.jpg");
+}
+.image-bg-bulk {
+  background-image: url("../images/Bulk_Analysis.png");
+}
 .image-bg-8 {
   background-image: url("../images/2250x1500.png");
 }
@@ -7965,7 +7974,7 @@ form .contacts-form-result.show {
   background-image: url("../images/Led_latest.jpg");
 }
 .image-bg-11 {
-  background-image: url("../images/2250x1500.png");
+  background-image: url("../images/Led_latest.jpg");
 }
 .image-bg-12 {
   background-image: url("../images/2250x1500.png");
@@ -7994,7 +8003,7 @@ form .contacts-form-result.show {
   width: 100%;
   height: 100%;
   z-index: 2;
-  opacity: .6;
+  opacity: .7;
   background-color: #000;
   content: '';
 }
