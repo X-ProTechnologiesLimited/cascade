@@ -8924,9 +8924,9 @@ fieldset[disabled] .pagination > li > span.focus {
 .icon-box.v3 .content .content-inner {
   position: absolute;
   left: 0;
-  top: 70%;
+  top: 50%;
   background-color: #08237e;
-  padding: 50px;
+  padding: 30px;
   padding-top: 0;
   color: #fff;
   height: auto;
