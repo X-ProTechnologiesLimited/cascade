@@ -3009,6 +3009,14 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
+
+.cover {
+  object-fit: cover;
+  width: 120px;
+  height: 150px;
+}
+
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
