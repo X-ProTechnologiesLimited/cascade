@@ -134,20 +134,20 @@
 											<h3>send us a message</h3>
 											<p>Feel free to drop us a line below.</p>
 											<div class="row">
-												<form id="contact-form">
+												<form id="contact-form" method="post" action="contact.php">
 													<div class="form-group contacts-form-result">
 														<div class="col-xs-12"><strong></strong></div>
 													</div>
 													<div class="form-group clearfix">
-														<div class="col-xs-12 col-sm-6"><input type="text" placeholder="Your name *" name="comment-name" class="form-control"></div>
-														<div class="col-xs-12 col-sm-6"><input type="email" placeholder="Your e-mail address *" name="comment-email" class="form-control"></div>
+														<div class="col-xs-12 col-sm-6"><input type="text" placeholder="Your name *" name="name" class="form-control"></div>
+														<div class="col-xs-12 col-sm-6"><input type="email" placeholder="Your e-mail address *" name="email" class="form-control"></div>
 													</div>
 													<div class="form-group clearfix">
-														<div class="col-xs-12 col-sm-6"><input type="tel" placeholder="Phone number..." name="comment-phone" class="form-control"></div>
-														<div class="col-xs-12 col-sm-6"><input type="text" placeholder="Company name..." name="comment-company" class="form-control"></div>
+<!--														<div class="col-xs-12 col-sm-6"><input type="tel" placeholder="Phone number..." name="comment-phone" class="form-control"></div>-->
+														<div class="col-xs-12 col-sm-6"><input type="text" placeholder="Company name..." name="subject" class="form-control"></div>
 													</div>
 													<div class="form-group clearfix">
-														<div class="col-xs-12"><textarea placeholder="Your message *" rows="7" name="comment-message" class="form-control"></textarea></div>
+														<div class="col-xs-12"><textarea placeholder="Your message *" rows="7" name="message" class="form-control"></textarea></div>
 													</div>
 													<div class="form-group clearfix">
 														<div class="col-xs-12"><button type="submit" class="btn btn-2">Send your request</button></div>
@@ -199,6 +199,7 @@
 			</div>
 		<script src="js/vendor.js"></script>
 		<script src="js/framework.js"></script>
+		<script src="js/validate.js"></script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpVQEdCmd9aY_-N6920-wilfScyBwS-Lw&amp;callback=initMap"></script>
 		<script src="js/template.js"></script>
 	</body>
