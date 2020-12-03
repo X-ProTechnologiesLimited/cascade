@@ -15,6 +15,7 @@ class PHP_Email_Form {
   public $mailer = false;
   public $smtp = false;
   public $message = '';
+  public $phone = '';
 
   public $content_type = 'text/html';
   public $charset = 'utf-8';
@@ -57,6 +58,7 @@ class PHP_Email_Form {
     $from_name = filter_var( $this->from_name, FILTER_SANITIZE_STRING);
     $from_email = filter_var( $this->from_email, FILTER_VALIDATE_EMAIL);
     $subject = filter_var( $this->subject, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+    $phone = nl2br($this->phone);
     $message = nl2br($this->message);
 
     if( ! $to || $to == 'contact@example.com')
