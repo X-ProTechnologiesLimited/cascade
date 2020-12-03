@@ -27,13 +27,14 @@
 
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
-    'username' => 'xprotech.contact@gmail.com',
-    'password' => 'Getfast@123',
+    'username' => 'xxxxxxxxxxx',
+    'password' => 'xxxxxxxxxxx',
     'port' => '587'
   );
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
+  $contact->add_message( $_POST['comment-phone'], 'Phone Number');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
