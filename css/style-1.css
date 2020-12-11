@@ -7406,17 +7406,28 @@ body.boxed .content-wrapper .container {
   letter-spacing: 2px;
   color: #d3eaeb;
 }
+
+
+.text-decor-ind {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+  color: #00004d;
+}
+
 .text-decor-industry {
   font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 1000;
-  letter-spacing: 2px;
-  color: #396EF0;
+  font-weight: 600;
 }
+
+
 .text-decor-2 {
   font-size: 2.5rem;
   line-height: 1.4;
   color: #02124d;
+}
+.text-decor-rest {
+  font-size: 1.2rem;
 }
 .color-link {
   color: #00b1f5;
@@ -9628,13 +9639,13 @@ fieldset[disabled] .pagination > li > span.focus {
   width: calc(100% - 120px);
 }
 .project-details-item {
-  padding-bottom: 30px;
-  margin-top: 30px;
-  border-bottom: 1px solid #dff1fb;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
 .project-details-item .title {
   margin-top: 0;
 }
+
 @media (max-width: 991px) {
   .single-project-images {
     display: -webkit-flex;
